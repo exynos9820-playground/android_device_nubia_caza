@@ -134,6 +134,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_PACKAGES += \
+    SettingsOverlayCOMMON \
+    SettingsOverlayVEUX
+
+PRODUCT_PACKAGES += \
     CarrierConfigResCommon_Sys \
     FrameworksResTarget_Vendor \
     SystemUIResCommon_Sys \
