@@ -1,12 +1,8 @@
-msm_sysstats.ko
-zsmalloc.ko
 msm_show_resume_irq.ko
 mhi.ko
 mhi_dev_uci.ko
 mhi_dev_satellite.ko
-phy-qcom-ufs-qmp-v4-kalama.ko
 phy-qcom-ufs-qmp-v4.ko
-phy-qcom-ufs-qmp-v4-waipio.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
 pwm-qti-lpg.ko
@@ -36,7 +32,6 @@ eud.ko
 llcc-qcom.ko
 llcc_perfmon.ko
 boot_stats.ko
-rq_stats.ko
 core_hang_detect.ko
 qcom_va_minidump.ko
 qcom_logbuf_vendor_hooks.ko
@@ -73,7 +68,6 @@ qcom_iommu_debug.ko
 drm_dp_aux_bus.ko
 drm_display_helper.ko
 lt9611uxc.ko
-zram.ko
 haptic.ko
 qseecom_proxy.ko
 qcom-i2c-pmic.ko
@@ -151,7 +145,6 @@ charger_policy_service.ko
 zte_misc.ko
 zte_power_supply.ko
 zte_tpd.ko
-zlog_test_dlkm.ko
 slimbus.ko
 slim-qcom-ngd-ctrl.ko
 coresight.ko
@@ -174,7 +167,6 @@ stm_p_ost.ko
 stm_console.ko
 stm_heartbeat.ko
 stm_ftrace.ko
-zte_sensor.ko
 snd-usb-audio-qmi.ko
 snd-soc-hdmi-codec.ko
 cfg80211.ko
@@ -189,7 +181,6 @@ cnss_nl.ko
 cnss_prealloc.ko
 cnss_utils.ko
 aw882xx_dlkm.ko
-smartpa_stat_dlkm.ko
 q6_notifier_dlkm.ko
 spf_core_dlkm.ko
 audpkt_ion_dlkm.ko
@@ -223,7 +214,6 @@ wcd938x_dlkm.ko
 wcd938x_slave_dlkm.ko
 wcd939x_dlkm.ko
 wcd939x_slave_dlkm.ko
-gpio_keys_nubia.ko
 qcedev-mod_dlkm.ko
 qcrypto-msm_dlkm.ko
 qce50_dlkm.ko
@@ -255,7 +245,6 @@ msm_drm.ko
 frpc-adsprpc.ko
 cdsp-loader.ko
 msm-eva.ko
-qbt_handler.ko
 msm_ext_display.ko
 sync_fence.ko
 msm_hw_fence.ko
@@ -264,7 +253,5 @@ spcom.ko
 spss_utils.ko
 synx-driver.ko
 ipclite.ko
-ipclite_test.ko
 msm_video.ko
-ftmmod.ko
 msm_kgsl.ko

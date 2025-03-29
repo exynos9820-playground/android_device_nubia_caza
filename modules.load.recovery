@@ -1,6 +1,5 @@
 gh_arm_drv.ko
 sched-walt.ko
-msm_rtb.ko
 qcom_ipc_logging.ko
 qcom-pdc.ko
 phy-qcom-ufs.ko
@@ -93,23 +92,14 @@ qnoc-pineapple.ko
 qnoc-qos.ko
 icc-debug.ko
 icc-test.ko
-zlog_exception_dlkm.ko
-zlog_common_dlkm.ko
-zte_imem_info.ko
-kmparam.ko
-pm_debug.ko
-zte_stats_info.ko
 qrtr.ko
 qrtr-gunyah.ko
 msm_sysstats.ko
-zsmalloc.ko
 msm_show_resume_irq.ko
 mhi.ko
 mhi_dev_uci.ko
 mhi_dev_satellite.ko
-phy-qcom-ufs-qmp-v4-kalama.ko
 phy-qcom-ufs-qmp-v4.ko
-phy-qcom-ufs-qmp-v4-waipio.ko
 pinctrl-spmi-gpio.ko
 pinctrl-spmi-mpp.ko
 pwm-qti-lpg.ko
@@ -139,7 +129,6 @@ eud.ko
 llcc-qcom.ko
 llcc_perfmon.ko
 boot_stats.ko
-rq_stats.ko
 core_hang_detect.ko
 qcom_va_minidump.ko
 qcom_logbuf_vendor_hooks.ko
@@ -176,7 +165,6 @@ qcom_iommu_debug.ko
 drm_dp_aux_bus.ko
 drm_display_helper.ko
 lt9611uxc.ko
-zram.ko
 haptic.ko
 qseecom_proxy.ko
 qcom-i2c-pmic.ko
@@ -254,7 +242,6 @@ charger_policy_service.ko
 zte_misc.ko
 zte_power_supply.ko
 zte_tpd.ko
-zlog_test_dlkm.ko
 slimbus.ko
 slim-qcom-ngd-ctrl.ko
 coresight.ko
@@ -277,7 +264,6 @@ stm_p_ost.ko
 stm_console.ko
 stm_heartbeat.ko
 stm_ftrace.ko
-zte_sensor.ko
 snd-usb-audio-qmi.ko
 snd-soc-hdmi-codec.ko
 qrtr-smd.ko
