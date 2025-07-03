@@ -98,6 +98,9 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/resourcemanager_pineapple_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_pineapple/resourcemanager_pineapple_mtp.xml \
     $(DEVICE_PATH)/audio/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # Boot control
 PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
