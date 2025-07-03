@@ -300,6 +300,7 @@ PRODUCT_COPY_FILES += \
 # Soong
 PRODUCT_SOONG_NAMESPACES += \
     $(DEVICE_PATH) \
+    hardware/qcom-caf/bootctrl \
     vendor/qcom/opensource/usb/etc
 
 # Thermal
